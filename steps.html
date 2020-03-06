@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>     
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+<head>   
+  
+body {
+  font-family: "Lato", sans-serif;
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
 <body>
 
-<h2>Vertical Navigation Bar</h2>
+<div class="sidenav">
+  <a href="index.html">Home</a>
+  <a href="steps.html">Steps</a>
+  <a href="#tools">Tools</a>
+  <a href="#"></a>
+</div>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
-</body>
 </html>
