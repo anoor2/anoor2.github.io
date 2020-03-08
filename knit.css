@@ -8,7 +8,7 @@ p {
 }
 
 h1, h2 {
-  color: darkslategray;
+  color: indigo;
 }
 
 h3 {
@@ -19,7 +19,7 @@ h4 {
   color: purple;
 }
 
-.blockquote { 
+blockquote { 
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -29,18 +29,6 @@ h4 {
 
 .title {
   color: darkmagenta;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.capitalize {
-  text-transform: capitalize;
 }
 
 
