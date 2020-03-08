@@ -8,28 +8,15 @@ p {
 }
 
 h1 {
-  color: maroon;
-}
-
-h2.destination {
-  font-family: cursive;
+  color: darkmagenta;
 }
 
 h4 {
   color: dogerblue;
 }
 
-h5 {
-  color: rebeccapurple !important;
-}
-
-h5,
-p {
-  font-family: Georgia;
-}
-
 .title {
-  color: teal;
+  color: darkmagenta;
 }
 
 .uppercase {
