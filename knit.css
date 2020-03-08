@@ -8,7 +8,7 @@ p {
 }
 
 h1, h2 {
-  color: darkturquoise;
+  color: darkslategray;
 }
 
 h3 {
@@ -16,10 +16,10 @@ h3 {
 }
 
 h4 {
-  color: dogerblue;
+  color: purple;
 }
 
-blockquote { 
+.blockquote { 
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -34,9 +34,6 @@ blockquote {
 .uppercase {
   text-transform: uppercase;
 }
-.publish-time {
-  color: gray;
-}
 
 .cursive {
   font-family: cursive;
@@ -46,7 +43,4 @@ blockquote {
   text-transform: capitalize;
 }
 
-.description h5 {
-  color: teal;
-}
 
